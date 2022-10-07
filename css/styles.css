@@ -1,0 +1,346 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* global reset */
+html, body, body div, div, span, label, h1, h2, h3, h4, h5, h6, p, a, em, img, s, small, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, button, form, fieldset, article, aside, footer, header, main, nav, section, input, textarea, select, option {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+}
+html * {
+    max-height: 1000000px;
+}
+
+/* common */
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+}
+p {
+    color: #1f3f68;
+    opacity: 0.6;
+}
+h1{
+   font-weight: 300;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.04em;
+    margin: 189px auto auto 113px;
+    color: #1F3F68; 
+}
+h2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000;
+}
+h3{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    margin-bottom: 14px;
+}
+h6{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    margin-top: 20px;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* structure */
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    font: normal 400 16px/26px 'Roboto';
+    letter-spacing: 0.05em;
+}
+header {
+    height: 116px;
+    flex: none;
+    position: relative;
+    z-index: 1;
+}
+footer {
+    height: 657px;
+    background: #316099;
+    flex: none;
+}
+main {
+    flex: auto;
+    margin-top: -116px;
+}
+
+/* header */
+header .container {
+    height: 48px;
+    padding: 34px 0;
+}
+.logo {
+    float: left;
+    width: 46px;
+    height: 48px;
+    background: url('../images/logo.png') center center no-repeat;
+}
+.user {
+    float: right;
+    width: 34px;
+    height: 48px;
+    background: url('../images/user.png') center center no-repeat;
+}
+
+/* footer */
+.liner {
+    height: 0;
+    border-top: 1px solid rgba(255,255,255,.4);
+}
+footer button {
+    float: right;
+    background: #5a98d0;
+    height: 56px;
+    width: 237px;
+    color: #fff;
+    letter-spacing: 0.04em;
+    margin: 100px 0 106px 408px;
+}
+footer .container {
+    padding: 64px 0;
+    overflow: hidden;
+}
+footer h2 {
+    color: #fff;
+    text-align: left;
+    margin: 27px 0 32px;
+}
+footer p {
+    color: #fff;
+}
+ol + p {
+    opacity: 0.4;
+}
+ol {
+    list-style-type: upper-alpha;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 60px 22px;
+}
+ol li {
+    width: 336px;
+}
+ol li::before {
+    width: 20px;
+    height: 30px;
+    float: left;
+    content: '';
+}
+
+/* main */
+main .container:first-child{
+    height: 652px;
+    }
+.gradient{
+    height: 278px;
+    background-image: linear-gradient(to top, #dfecf8, #fff)
+    }
+main.img{
+    }
+
+main h2{
+    margin: 64px auto 32px;
+}
+main p{
+    color: #1F3F68; 
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    }
+main .container>p:not(.finished){
+    margin: 32px auto auto 113px;
+}
+main .div>p{
+    margin: 32px auto auto 113px;
+}
+.finished{
+    text-align: center;
+    margin-bottom: 64px;
+}
+main button{
+    height: 56px;
+    width: 220px;
+    margin: 71px auto auto 113px;
+    background: #5a98d0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    border-radius: 10px;
+    }
+ .whatcont{
+     display: flex;
+     gap: 32px;
+     
+ }
+ .whatelement{
+    height: 480px;
+    width: 359px;
+    background: #fff;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+ }
+ .face1{
+     width: 172px auto;
+     margin: 45px auto auto 70px;
+ }
+ .face2{
+    width: 132px auto;
+    margin: 45px auto auto 114px;
+ }
+ .face3{
+    width: 147px auto;
+    margin: 45px auto auto 94px;
+ }
+ .whatelement>div{
+     margin: 52px 32px 44px 44px;
+ }
+h6::after{
+    content: url('../images/arrow.png');
+    }
+.grid{
+    display: grid;
+    grid-template-rows: 480px 417px;
+    grid-template-columns: repeat (2, 554px);
+    grid-column-gap: 32px;
+    grid-row-gap: 32px;
+    } 
+
+}
+
+/* adaptive */
+@media screen and (max-width:1204px) {
+    .container {
+        width: auto;
+        margin: 0 32px;
+    }
+    footer {
+        height: 654px;
+    }
+    footer .container {
+        padding: 64px 92px;
+    }
+    footer button {
+        height: 32px;
+        width: 133px;
+        margin: 95px 0 65px 0;
+    }
+    footer h2 {
+        width: 336px;
+        margin: -16px 0 22px;
+    }
+    footer p {
+        width: 336px;
+    }
+    ol {
+        display: block;
+        margin-bottom: 53px;
+    }
+    ol li {
+        width: auto;
+        margin-bottom: 19px;
+    }
+    ol li::before {
+        height: 10px;
+        width: 40px;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .container {
+        margin: 0 16px;
+    }
+    header {
+        height: 80px;
+    }
+    header .container {
+        padding: 16px 0;
+    }
+    main {
+        margin-top: -80px;
+    }
+    footer {
+        height: 553px;
+    }
+    footer .container {
+        display: flex;
+        flex-direction: column;
+        padding: 18px 0 40px;
+    }
+    footer button {
+        order: 1;
+        float: none;
+        width: 108px;
+        margin: 33px auto 0;
+    }
+    footer h2 {
+        width: auto;
+        text-align: center;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        margin: 0 0 27px;
+    }
+    footer p {
+        width: auto;
+        text-align: center;
+    }
+    ol {
+        margin: 14px 0 11px 22px;
+    }
+    ol li {
+        line-height: 19px;
+    }
+    ol li::before {
+        height: 20px;
+        width: 20px;
+    }
+    
+}
