@@ -36,6 +36,7 @@ html * {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: #1f3f68;
 }
 button {
     cursor: pointer;
@@ -49,7 +50,7 @@ h1{
     font-size: 64px;
     line-height: 74px;
     letter-spacing: 0.04em;
-    margin: 189px auto auto 113px;
+    margin: 0px 50% auto 0px;
     color: #1F3F68; 
 }
 h2 {
@@ -68,13 +69,12 @@ h3{
     color: #1F3F68;
     margin-bottom: 14px;
 }
-h6{
+h4{
     font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
+    font-size: 32px;
+    line-height: 46px;
     letter-spacing: 0.05em;
-    color: #5A98D0;
-    margin-top: 20px;
+    color: #FFFFFF;
 }
 .container {
     width: 1140px;
@@ -127,6 +127,135 @@ header .container {
     background: url('../images/user.png') center center no-repeat;
 }
 
+/* main */
+main p{
+    color: #1F3F68; 
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    }
+ 
+        /*блок с градиентом*/ 
+.grad {
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 0%, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.grad .container {
+    overflow: hidden;
+    padding: 183px 0 94px;
+    height: 491px;
+}
+.grad .container img { 
+    float: right; 
+    margin-left: 80px;
+    } 
+main .grad p {
+    margin: 32px 50% auto 0px;
+    height: 78px;
+}
+main button{
+    height: 56px;
+    width: 220px;
+    margin: 71px auto auto 0px;
+    background: #5a98d0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    border-radius: 10px;
+    }
+
+        /* заголовки What do we do и Finished projects + текст*/
+main h2{
+    margin: 64px auto 32px;
+}
+
+.finished{
+    text-align: center;
+    margin-bottom: 64px;
+}
+        /*3 картинки в ряд*/
+ .whatelement{
+    height: 480px;
+    width: 359px;
+    background: #fff;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+ }
+ .whatelement >div{
+     margin: 52px 32px 44px 44px;
+ }
+ .whatelement a{
+    color: #5A98D0;
+    margin: 30px 0px;
+    }
+.whatelement a::after {
+    content: '';
+    background: url('../images/arrow.png') center center no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-right: 50px;
+    }
+    
+.whatcont{
+     display: flex;
+     gap: 32px;  
+ } 
+ .face1{
+     width: 172px auto;
+     margin: 45px auto auto 70px;
+ }
+ .face2{
+    width: 132px auto;
+    margin: 45px auto auto 114px;
+ }
+ .face3{
+    width: 147px auto;
+    margin: 45px auto auto 94px;
+ }
+        /* блок из 3 картинок в 2 строки*/
+.grid {
+    display: grid;
+    gap: 32px;
+    grid-template-areas: 'a a' 'b c';
+    margin-bottom: 112px;
+}
+
+.first {
+    width: 1140px;
+    height: 480px;
+    border-radius: 10px;
+    grid-area: a;
+    background-image: url('../images/smart.png');
+}
+.first h4{
+    text-align: right;
+    margin: 64px 64px auto auto;
+}
+.second {
+    width: 554px;
+    height: 417px;
+    border-radius: 10px;
+    grid-area: b;
+    background-image: url('../images/mask.png');
+}
+.second h4{
+    text-align: left;
+    margin: 32px auto auto 32px;
+}
+.third {
+    width: 554px;
+    height: 417px;
+    border-radius: 10px;
+    grid-area: c;
+    background-image: url('../images/mask.png');
+}
+.third h4{
+    text-align: left;
+    margin: 32px auto auto 32px;
+}
+
 /* footer */
 .liner {
     height: 0;
@@ -173,87 +302,7 @@ ol li::before {
     content: '';
 }
 
-/* main */
-main .container:first-child{
-    height: 652px;
-    }
-.gradient{
-    height: 278px;
-    background-image: linear-gradient(to top, #dfecf8, #fff)
-    }
-main.img{
-    }
 
-main h2{
-    margin: 64px auto 32px;
-}
-main p{
-    color: #1F3F68; 
-    letter-spacing: 0.05em;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    }
-main .container>p:not(.finished){
-    margin: 32px auto auto 113px;
-}
-main .div>p{
-    margin: 32px auto auto 113px;
-}
-.finished{
-    text-align: center;
-    margin-bottom: 64px;
-}
-main button{
-    height: 56px;
-    width: 220px;
-    margin: 71px auto auto 113px;
-    background: #5a98d0;
-    color: #fff;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.04em;
-    border-radius: 10px;
-    }
- .whatcont{
-     display: flex;
-     gap: 32px;
-     
- }
- .whatelement{
-    height: 480px;
-    width: 359px;
-    background: #fff;
-    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    border-radius: 10px;
- }
- .face1{
-     width: 172px auto;
-     margin: 45px auto auto 70px;
- }
- .face2{
-    width: 132px auto;
-    margin: 45px auto auto 114px;
- }
- .face3{
-    width: 147px auto;
-    margin: 45px auto auto 94px;
- }
- .whatelement>div{
-     margin: 52px 32px 44px 44px;
- }
-h6::after{
-    content: url('../images/arrow.png');
-    }
-.grid{
-    display: grid;
-    grid-template-rows: 480px 417px;
-    grid-template-columns: repeat (2, 554px);
-    grid-column-gap: 32px;
-    grid-row-gap: 32px;
-    } 
-
-}
 
 /* adaptive */
 @media screen and (max-width:1204px) {
