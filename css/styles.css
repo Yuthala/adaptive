@@ -219,7 +219,7 @@ main h2{
     display: grid;
     gap: 32px;
     grid-template-areas: 'a a' 'b c';
-    margin-bottom: 112px;
+    padding-bottom: 112px;
 }
 
 .first {
@@ -241,7 +241,6 @@ main h2{
     background-image: url('../images/mask.png');
 }
 .second h4{
-    text-align: left;
     margin: 32px auto auto 32px;
 }
 .third {
@@ -252,7 +251,6 @@ main h2{
     background-image: url('../images/mask.png');
 }
 .third h4{
-    text-align: left;
     margin: 32px auto auto 32px;
 }
 
@@ -306,10 +304,102 @@ ol li::before {
 
 /* adaptive */
 @media screen and (max-width:1204px) {
-    .container {
+.container {
         width: auto;
         margin: 0 32px;
     }
+    /*header*/
+.grad {
+    height: 768px;
+    background: linear-gradient(0deg, #DFEDF8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.grad .container img { 
+    width: 336px;
+    position: absolute; 
+    bottom: 108px;
+    left: 320px;
+    } 
+ h1{
+    margin: 0px 25% auto 0px;
+}
+main .grad p {
+    margin: 32px 25% auto 0px;
+    height: 82px;
+}
+main button{
+    margin: 72px 19px auto auto;
+    background: #5a98d0;
+    color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    border-radius: 10px;
+    }
+   /*main*/
+main h2{
+    margin: 64px 32px 64px;
+}
+.h2finished{
+    margin: 127px 32px 32px;
+}
+.finished{
+    text-align: center;
+    margin: 0px 124px 64px;
+    color: #222222;
+}
+.first {
+    width: 704px;
+    height: 297px;
+}  
+.second {
+    width: 336px;
+    height: 253px;
+}
+.second h4{
+    margin: 19px auto auto 19px;
+    font-size: 28px;
+    line-height: 46px;
+}
+.third {
+    width: 336px;
+    height: 253px;
+}
+.third h4{
+    margin: 19px auto auto 19px;
+    font-size: 28px;
+    line-height: 46px;
+}
+.whatcont{
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;  
+ } 
+.whatelement{
+    width: 335px;
+    height: 448px;
+ }
+.face1{
+    margin: 41px auto auto 65px;
+ }
+ .face2{
+    width: 132px auto;
+    margin: 41px auto auto 109px;
+ }
+ .face3{
+    width: 147px auto;
+    margin: 43px auto auto 88px;
+ }
+.face1 +div{
+    margin: 48px 29px 26px 41px;
+    }
+.face2 +div{
+    margin: 42px 30px 41px 30px;
+    }
+.face3 +div{
+    margin: 47px 29px 42px 29px;
+    }
+   
+    /*footer*/
     footer {
         height: 654px;
     }
@@ -340,8 +430,8 @@ ol li::before {
         height: 10px;
         width: 40px;
     }
-    
 }
+
 @media screen and (max-width:767px) {
     .container {
         margin: 0 16px;
