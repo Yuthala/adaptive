@@ -46,7 +46,7 @@ p {
     opacity: 0.6;
 }
 h1{
-   font-weight: 300;
+    font-weight: 300;
     font-size: 64px;
     line-height: 74px;
     letter-spacing: 0.04em;
@@ -173,7 +173,9 @@ main h2{
 
 .finished{
     text-align: center;
-    margin-bottom: 64px;
+    margin: 0px 195px 64px;
+    color: #000000;
+    opacity: 1;
 }
         /*3 картинки в ряд*/
  .whatelement{
@@ -184,11 +186,14 @@ main h2{
     border-radius: 10px;
  }
  .whatelement >div{
-     margin: 52px 32px 44px 44px;
+     width: 294px;
+     height: 220px;
+     padding: 44px 32px;
  }
  .whatelement a{
     color: #5A98D0;
-    margin: 30px 0px;
+    display: inline-block;
+    margin: 14px 0px;
     }
 .whatelement a::after {
     content: '';
@@ -203,16 +208,15 @@ main h2{
      gap: 32px;  
  } 
  .face1{
-     width: 172px auto;
-     margin: 45px auto auto 70px;
+    margin: 44px 110px 8px 70px;
  }
  .face2{
-    width: 132px auto;
-    margin: 45px auto auto 114px;
+    margin: 44px 111px 3px 116px;
+   
  }
  .face3{
-    width: 147px auto;
-    margin: 45px auto auto 94px;
+    margin: 48px 117px 6px 94px;
+   
  }
         /* блок из 3 картинок в 2 строки*/
 .grid {
@@ -227,7 +231,8 @@ main h2{
     height: 480px;
     border-radius: 10px;
     grid-area: a;
-    background-image: url('../images/smart.png');
+    background: url('../images/smart.png') center no-repeat;
+    background-size: cover;
 }
 .first h4{
     text-align: right;
@@ -238,7 +243,8 @@ main h2{
     height: 417px;
     border-radius: 10px;
     grid-area: b;
-    background-image: url('../images/mask.png');
+    background: url('../images/mask.png') center no-repeat;
+    background-size: cover;
 }
 .second h4{
     margin: 32px auto auto 32px;
@@ -248,7 +254,8 @@ main h2{
     height: 417px;
     border-radius: 10px;
     grid-area: c;
-    background-image: url('../images/mask.png');
+    background: url('../images/mask2.png') center no-repeat;
+    background-size: cover;
 }
 .third h4{
     margin: 32px auto auto 32px;
@@ -308,22 +315,30 @@ ol li::before {
         width: auto;
         margin: 0 32px;
     }
-    /*header*/
+    /*main*/
 .grad {
     height: 768px;
     background: linear-gradient(0deg, #DFEDF8 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
+.grad .container {
+    padding: 92px 0 100px;
+    height: 452px;
+}
+.grad div {
+    position: relative;
+}
 .grad .container img { 
     width: 336px;
     position: absolute; 
-    bottom: 108px;
-    left: 320px;
+    bottom: 0px;
+    right: 0px;
+    margin-left: 0px;
     } 
  h1{
-    margin: 0px 25% auto 0px;
+    margin: 112px 25% auto 0px;
 }
 main .grad p {
-    margin: 32px 25% auto 0px;
+    margin: 32px 40% auto 0px;
     height: 82px;
 }
 main button{
@@ -335,7 +350,6 @@ main button{
     letter-spacing: 0.04em;
     border-radius: 10px;
     }
-   /*main*/
 main h2{
     margin: 64px 32px 64px;
 }
@@ -343,8 +357,7 @@ main h2{
     margin: 127px 32px 32px;
 }
 .finished{
-    text-align: center;
-    margin: 0px 124px 64px;
+    margin: 0px 89px 64px;
     color: #222222;
 }
 .first {
@@ -378,26 +391,21 @@ main h2{
     width: 335px;
     height: 448px;
  }
+ .whatelement >div{
+     width: 275px;
+     height: 215px;
+     padding: 30px;
+ }
 .face1{
-    margin: 41px auto auto 65px;
+   margin: 40px 105px 0px 60px;
  }
  .face2{
-    width: 132px auto;
-    margin: 41px auto auto 109px;
+    margin: 40px 102px 0px 99px;
  }
  .face3{
-    width: 147px auto;
-    margin: 43px auto auto 88px;
+    margin: 40px 109px -15px 68px;
  }
-.face1 +div{
-    margin: 48px 29px 26px 41px;
-    }
-.face2 +div{
-    margin: 42px 30px 41px 30px;
-    }
-.face3 +div{
-    margin: 47px 29px 42px 29px;
-    }
+ 
    
     /*footer*/
     footer {
@@ -433,21 +441,115 @@ main h2{
 }
 
 @media screen and (max-width:767px) {
-    .container {
-        margin: 0 16px;
+.container {
+    margin: 0 20px;
     }
-    header {
-        height: 80px;
+header {
+    height: 48px;
     }
-    header .container {
-        padding: 16px 0;
+header .container {
+    padding: 16px;
     }
-    main {
-        margin-top: -80px;
+main {
+    margin-top: -80px;
     }
-    footer {
-        height: 553px;
+footer {
+    height: 553px;
     }
+
+    /*main*/
+.grad {
+    height: 376px;
+    background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+.grad .container img { 
+    display: none;
+    } 
+h1{
+    margin: 26px 0px 0px;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+main button{
+    display: block;
+    height: 27px;
+    width: 108px;
+    margin: 0px auto;
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 12px;
+    line-height: 26px;
+    }
+main p{
+    text-align: center;
+    }
+.whatelement p {
+    text-align: left;
+}
+main .grad p {
+    margin: 12px 0px 32px;
+}
+.h2finished{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 64px 16px 32px;
+}
+.finished{
+    margin: 0px 0px 82px;
+    color: #222222;
+}  
+main h2{
+    font-size: 24px;
+    line-height: 28px;
+    margin: 48px 16px 32px;
+}
+.whatelement >div{
+     width: 275px;
+     height: 215px;
+     padding: 30px;
+ }
+h3{
+    margin: 0px 0px 14px;
+}
+
+.grid {
+    gap: 16px;
+    grid-template-areas: 'a a' 'b b' 'c c';
+    padding-bottom: 64px;
+}
+.first {
+    height: 144px;
+    width: 350px;
+    background: url('../images/smart.png') center no-repeat;
+}
+.first h4{
+    font-size: 16px;
+    line-height: 19px;
+    margin: 16px 16px auto auto;
+    background: 
+} 
+.second {
+    width: 350px;
+    height: 255px;
+}
+.second h4{
+    font-size: 16px;
+    line-height: 19px;
+    margin: 26px auto auto 16px;
+}
+.third {
+    width: 350px;
+    height: 255px;
+}
+.third h4{
+    font-size: 16px;
+    line-height: 19px;
+    margin: 16px auto auto 16px;
+}
+
+    /*footer*/
     footer .container {
         display: flex;
         flex-direction: column;
