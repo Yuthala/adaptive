@@ -304,20 +304,32 @@ main h2{
     margin: 64px auto 24px 0;
     text-transform: uppercase;
 }
-.address p {
+.address li {
     font-weight: 300;
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.04em;
-
+    opacity: 0.6;
+}
+.address ul {
+    list-style: none;
+    display: inline-block;
+}
+.address a {
+    display: inline-block;
+    height: 40px;
+    vertical-align: center;
 }
 .phone::before {
     content: '';
-    background: url(../images/phone.svg) no-repeat center left;
-    background-size: 20px;
+    display: inline-block;
+    background: url(../images/phone.svg) no-repeat left center;
+    background-size: 26px;
     width: 24px;
     height: 24px;
-    padding-left: 40px;
+    padding-left:40px;
+    vertical-align: center;
+    opacity: 0.6;
 }
 .web::before {
     content: '';
@@ -643,7 +655,9 @@ header .container {
 .wrapper {
     flex-direction: column;
     gap: 32px;
+    /*padding: 0;*/
 } 
+
 main {
     margin-top: -80px;
     }
