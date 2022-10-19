@@ -407,10 +407,12 @@ input, textarea {
     text-indent: 42px;
 }
 .map{
-    width: 940px;
-    height: 480px;
+    background: url(../images/map1.jpg) no-repeat center center;
+    background-size: cover;
+    /*width: 940px;*/
+    /*height: 480px;*/
     padding-bottom: 113px;
-    margin:0 auto;
+    margin:0;
 }
 /* footer */
 .liner {
