@@ -109,7 +109,7 @@
 }
 
 /* header */
-    header .container {
+    header div {
         height: 48px;
         padding: 34px 0;
 }
@@ -473,154 +473,157 @@
 
 /* adaptive */
 @media screen and (max-width:1204px) {
-.container {
+    .container {
         width: auto;
         margin: 0 32px;
     }
     /*header*/
-.contactus{
-    padding-top: 50px;
-    height: 200px;
+    .contactus{
+        padding-top: 50px;
+        height: 200px;
 }
-.contactus h3 {
-    width: 520px;
+    .contactus h3 {
+        width: 520px;
 }
     /*main*/
-.grad {
-    height: 768px;
-    background: linear-gradient(0deg, #DFEDF8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+    .grad {
+        height: 768px;
+        background: linear-gradient(0deg, #DFEDF8 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
-.grad .container {
-    padding: 92px 0 100px;
-    height: 452px;
+    .grad .container {
+        padding: 92px 0 100px;
+        height: 452px;
 }
-.grad div {
-    position: relative;
+    .grad div {
+        position: relative;
 }
-.grad .container img { 
-    width: 336px;
-    position: absolute; 
-    bottom: 0px;
-    right: 0px;
-    margin-left: 0px;
+    .grad .container img { 
+        width: 336px;
+        position: absolute; 
+        bottom: 0px;
+        right: 0px;
+        margin-left: 0px;
     } 
-.container h1{
-    margin: 112px 25% auto 0px;
+    .container h1{
+        margin: 112px 25% auto 0px;
 }
-main .grad p {
-    margin: 32px 40% auto 0px;
-    height: 82px;
+    main .grad p {
+        margin: 32px 40% auto 0px;
+        height: 82px;
 }
-main button{
-    margin: 72px 19px auto auto;
-    background: #5a98d0;
-    color: #fff;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.04em;
-    border-radius: 10px;
+    main button{
+        margin: 72px 19px auto auto;
+        background: #5a98d0;
+        color: #fff;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        border-radius: 10px;
     }
-main h2{
-    margin: 64px 32px 64px;
+    main h2{
+        margin: 64px 32px 64px;
 }
-.h2finished{
-    margin: 127px 32px 32px;
+    .h2finished{
+        margin: 127px 32px 32px;
 }
-.finished{
-    margin: 0px 89px 64px;
-    color: #222222;
+    .finished{
+        margin: 0px 89px 64px;
+        color: #222222;
 }
-.first {
-    width: 704px;
-    height: 297px;
+    .first {
+        width: 704px;
+        height: 297px;
 }  
-.second {
-    width: 336px;
-    height: 253px;
+    .second {
+        width: 336px;
+        height: 253px;
 }
-.second h4{
-    margin: 19px auto auto 19px;
-    font-size: 28px;
-    line-height: 46px;
+    .second h4{
+        margin: 19px auto auto 19px;
+        font-size: 28px;
+        line-height: 46px;
 }
-.third {
-    width: 336px;
-    height: 253px;
+    .third {
+        width: 336px;
+        height: 253px;
 }
-.third h4{
-    margin: 19px auto auto 19px;
-    font-size: 28px;
-    line-height: 46px;
+    .third h4{
+        margin: 19px auto auto 19px;
+        font-size: 28px;
+        line-height: 46px;
 }
-.whatcont{
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;  
+    .whatcont{
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;  
  } 
-.whatelement{
-    width: 335px;
-    height: 448px;
+    .whatelement{
+        width: 335px;
+        height: 448px;
  }
- .whatelement >div{
-     width: 275px;
-     height: 215px;
-     padding: 30px;
- }
-.face1{
-   margin: 40px 105px 0px 60px;
- }
- .face2{
-    margin: 40px 102px 0px 99px;
- }
- .face3{
-    margin: 40px 109px -15px 68px;
- }
+    .whatelement >div{
+        width: 275px;
+        height: 215px;
+        padding: 30px;
+}
+    .grid {
+        padding-bottom: 109px;
+}
+    .face1{
+        margin: 40px 105px 0px 60px;
+}
+    .face2{
+        margin: 40px 102px 0px 99px;
+}
+    .face3{
+        margin: 40px 109px -15px 68px;
+}
  
  /*CONTACT US*/
-.wrapper {
-    flex-direction: column;
-    gap: 64px;
+    .wrapper {
+        flex-direction: column;
+        gap: 64px;
 } 
-.address {
-    width: 301px;
-    height: 676px;
-    margin: 64px 0;
+    .address {
+        width: 301px;
+        height: 676px;
+        margin: 64px 0;
 }
-.message {
-    width: 412px;
-    height: 672px;
-    margin-top: 0;
-    padding: 54px;
+    .message {
+        width: 412px;
+        height: 672px;
+        margin-top: 0;
+        padding: 54px;
 }
-.message h3{
-    font-weight: 500;
-    letter-spacing: 0.04em;
-    margin-bottom: 26px;
-    text-transform: uppercase;
-    /*padding-right: 70%;*/
+    .message h3{
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        margin-bottom: 26px;
+        text-transform: uppercase;
+        /*padding-right: 70%;*/
 }
-.message h4 {
-    font-size: 16px;
-    line-height: 30px;
-    letter-spacing: 0.04em;
-    opacity: 0.8;
-    color: #1F3F68;
-    margin: 26px 0 8px;
+    .message h4 {
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        opacity: 0.8;
+        color: #1F3F68;
+        margin: 26px 0 8px;
 }
-.message [name = "submit"]{
-    margin: 58px auto 56px; /*вернуть 72px auto 56px после того как поправлю высоту textarea>*/
+    .message [name = "submit"]{
+        margin: 58px auto 56px; /*вернуть 72px auto 56px после того как поправлю высоту textarea>*/
 }
-/*.map{
-    width: 100%;
-    height: 392px;
+    /*.map{
+        width: 100%;
+        height: 392px;
 }
-.map.container {
-    overflow: hidden;
-    height: 392px;
-    background: cover;
+    .map.container {
+        overflow: hidden;
+        height: 392px;
+        background: cover;
 }
-.map img{
-    margin-bottom: 64px;
+    .map img{
+        margin-bottom: 64px;
 }*/
     /*footer*/
     footer {
@@ -678,14 +681,19 @@ main h2{
     }
     header .container {
         height: 48px;
-        padding: 16px;
+        padding: 16px 0 28px;
     }
     .wrapper {
         flex-direction: column;
-            gap: 32px;
+        gap: 32px;
         /*padding: 0;*/
 } 
-
+    .grad .container {
+        /*overflow: hidden;
+        padding: 183px 0 94px;*/
+        height: 376px;
+        padding-top: 64px;
+}
     main {
         margin-top: -80px;
     }
@@ -701,8 +709,8 @@ main h2{
     .grad .container img { 
         display: none;
     } 
-    h1{
-        margin: 26px 0px 0px;
+    main .container h1{
+        margin: 0 auto 12px;
         font-size: 32px;
         line-height: 38px;
         text-align: center;
