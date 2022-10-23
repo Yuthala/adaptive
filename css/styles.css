@@ -105,7 +105,6 @@
 }
     main {
         flex: auto;
-        /*margin-top: -116px;*/
 }
 
 /* header */
@@ -127,16 +126,9 @@
 }
 /*CONTACT US*/
 
-    /* .container2 {
-        width: 940px;
-        margin: 0 auto;
-}*/
     .contactus {
         height: 250px;
         width: 100%;
-        /*position: absolute;
-        top: 116px;
-        left: 570px;*/
         background: url('../images/contactus.png') no-repeat center center;
         background-size: cover;
 }
@@ -165,7 +157,7 @@
         line-height: 26px;
     }
  
-        /*блок с градиентом*/ 
+    /*блок с градиентом*/ 
     .grad {
         height: 652px;
         background: linear-gradient(0deg, #EBF3FB 0%, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
@@ -195,7 +187,7 @@
         border-radius: 10px;
     }
 
-        /* заголовки What do we do и Finished projects + текст*/
+    /* заголовки What do we do и Finished projects + текст*/
     main h2{
         margin: 64px auto 32px;
 }
@@ -206,7 +198,7 @@
         color: #000000;
         opacity: 1;
 }
-        /*3 картинки в ряд*/
+    /*3 картинки в ряд*/
     .whatelement{
         height: 480px;
         width: 359px;
@@ -247,7 +239,6 @@
         margin: 48px 117px 6px 94px;
    
  }
-        /* блок из 3 картинок в 2 строки*/
     .grid {
         display: grid;
         width: 100%;
@@ -266,53 +257,35 @@
         display: block;
 }
     .first {
-        /*width: 1140px;
-        height: 480px;*/
         border-radius: 10px;
         grid-area: a;
-        /*background: url('../images/smart.png') center no-repeat;
-        background-size: cover;*/
 }
     .first h4{
         text-align: right;
-        /*margin: 64px 64px auto auto;*/
         top: 64px;
         right: 64px;
 }
     .second {
-        /*width: 554px;
-        height: 417px;*/
         border-radius: 10px;
         grid-area: b;
-        /*background: url('../images/mask.png') center no-repeat;
-        background-size: cover;*/
 }
     .second h4{
-        /*margin: 32px auto auto 32px;*/
         top: 19px;
         left: 19px
 }
     .third {
-        /*width: 554px;
-        height: 417px;*/
         border-radius: 10px;
         grid-area: c;
-        /*background: url('../images/mask2.png') center no-repeat;
-        background-size: cover;*/
 }
     .third h4{
-        /*margin: 32px auto auto 32px;*/
         top: 19px;
         left: 19px;
 }
 
 /*CONTACT US*/
-    /*.container2 {
-        width: 1366px;   
-    }*/
+
     .wrapper {
         width: 100%;
-        /*padding: 57px 0 96px;*/
         display: flex;
         justify-content: center;
         align-items: center;
@@ -322,7 +295,6 @@
     .address {
         width: 301px;
         height: 668px;
-    /*background: url('../images/group.jpg') no-repeat center top;*/
         padding: 0;
 }
     .address > img {
@@ -380,7 +352,6 @@
     .message {
         width: 428px;
         height: 688px;
-        /*margin-top: 57px;*/
         padding: 56px;
         background: #FFFFFF;
         box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
@@ -423,16 +394,8 @@
         font-size: 16px;
         letter-spacing: 0.04em;
 }
- 
-    /*.map > img {
-     width: 940px;
-     height: 480px;
-     padding-bottom: 113px;
-     margin:0 auto;
- }*/
     .map {
         width: 940px;
-        height: 480px;
         padding-bottom: 113px;
         margin: 0 auto;
  }
@@ -490,8 +453,7 @@
     body {
         width: 768px;
         margin: 0 auto;
-    }
-    
+    }  
     .container {
         width: auto;
         margin: 0 32px;
@@ -499,9 +461,6 @@
  
     /*header*/
     /*CONTACT US*/
-    /*.contactus{
-        margin-top: 50px;
-    }*/
     .contactus h1 {
         padding-top: 50px;
     }
@@ -520,21 +479,21 @@
     }
     .grad div {
         position: relative;
-}
+    }
     .grad .container img { 
         width: 336px;
         position: absolute; 
         bottom: 107px;
         right: 0px;
         margin-left: 0px;
-} 
+    } 
     .container h1{
         margin: 0 25% auto 0px;
-}
+    }
     main .grad p {
         margin: 32px 40% auto 0px;
         height: 82px;
-}
+    }
     main button{
         margin: 72px 19px auto auto;
         background: #5a98d0;
@@ -546,88 +505,75 @@
     }
     main h2{
         margin: 64px 32px 64px;
-}
+    }
     .h2finished{
         margin: 127px 32px 32px;
-}
+    }
     .finished{
         margin: 0px 89px 64px;
         color: #222222;
-}
-    /*.first {
-        width: 704px;
-        height: 297px;
-}  
-    .second {
-        width: 336px;
-        height: 253px;
-}*/
+    }
     .second h4{
         margin: 19px auto auto 19px;
         font-size: 28px;
         line-height: 46px;
-}
-    /*.third {
-        width: 336px;
-        height: 253px;
-}*/
+    }
     .third h4{
         margin: 19px auto auto 19px;
         font-size: 28px;
         line-height: 46px;
-}
+    }
     .whatcont{
         flex-direction: column;
         align-items: center;
         gap: 32px;  
- } 
+    } 
     .whatelement{
         width: 335px;
         height: 448px;
- }
+    }
     .whatelement >div{
         width: 275px;
         height: 215px;
         padding: 30px;
-}
+    }
     .grid {
         padding-bottom: 109px;
-}
+    }
     .face1{
         margin: 40px 105px 0px 60px;
-}
+    }
     .face2{
         margin: 40px 102px 0px 99px;
-}
+    }
     .face3{
         margin: 40px 109px -15px 68px;
-}
+    }
  
  /*CONTACT US*/
-
+ 
     .wrapper {
         flex-direction: column;
         gap: 64px;
         margin: 64px auto;
-} 
+    } 
     .address {
         width: 301px;
         height: 679px;
         margin: 0;
-}
+    }
     .message {
         width: 412px;
         height: 672px;
         margin-top: 0;
         padding: 54px;
-}
+    }
     .message h3{
         font-weight: 500;
         letter-spacing: 0.04em;
         margin-bottom: 26px;
         text-transform: uppercase;
-        /*padding-right: 70%;*/
-}
+    }
     .message h4 {
         font-size: 16px;
         line-height: 30px;
@@ -635,33 +581,18 @@
         opacity: 0.8;
         color: #1F3F68;
         margin: 26px 0 8px;
-}
+    }
     .message [name = "submit"]{
         margin: 58px auto 56px; 
-}
+    }
     .map { 
         padding-bottom: 0;
         margin: 0;
- }
-    .map > img {
+    }
+    .map>img {
         width: 768px;
-        display: block;
         margin: 0;
     }   
-   
-    /*.map{
-        width: 100%;
-        height: 392px;
-}
-    .map.container {
-        overflow: hidden;
-        height: 392px;
-        background: cover;
-}
-    .map img{
-        margin-bottom: 64px;
-}*/
-    /*footer*/
     footer {
         height: 654px;
     }
@@ -695,15 +626,7 @@
 }
 
 @media screen and (max-width:960px) {
-     body {
-        width: 683px;
-        margin: 0 auto;
-    }
-    
-    .container {
-        width: auto;
-        margin: 0 16px;
-    }    
+   
     .map{
         width: 100%;
         height: 392px;
@@ -721,39 +644,41 @@
 }
 
 @media screen and (max-width:767px) {
+    body {
+        width: 683px;
+        margin: 0 auto;
+    }
+    
+    .container {
+        width: auto;
+        margin: 0 16px;
+    }    
+    
     header {
         height: 80px;
     }
-    .container {
-        margin: 0 20px;
-    }
+  
     header .container {
         height: 48px;
         padding: 16px 0 25px;
     }
     .wrapper {
-        flex-direction: column;
         gap: 32px;
-        /*padding: 0;*/
-} 
+        margin: 46px auto;
+    } 
     .grad .container {
-        /*overflow: hidden;
-        padding: 183px 0 94px;*/
-        height: 256px;
+        height: 250px;
         padding: 80px 0 40px;
-}
+    }
     main {
         margin-top: -80px;
     }
-    footer {
-        height: 553px;
-    }
-
+    
     /*main*/
     .grad {
         height: 376px;
         background: linear-gradient(0deg, #DAEAF7 8.84%, rgba(152, 195, 232, 0) 31.12%);
-}
+    }
     .grad .container img { 
         display: none;
     } 
@@ -762,7 +687,7 @@
         font-size: 32px;
         line-height: 38px;
         text-align: center;
-}
+    }
     main button{
         display: block;
         height: 27px;
@@ -779,93 +704,105 @@
     }
     .whatelement p {
         text-align: left;
-}
+    }
     main .grad p {
         margin: 12px 0px 32px;
         height: 96px;
-}
+    }
     .h2finished{
         font-size: 24px;
         line-height: 28px;
         margin: 64px 16px 32px;
-}
+    }
     .finished{
         margin: 0px 0px 82px;
         color: #222222;
-}  
+    }  
     main h2{
         font-size: 24px;
         line-height: 28px;
         margin: 48px 16px 32px;
-}
+    }
     .whatelement >div{
         width: 275px;
         height: 215px;
         padding: 30px;
- }
-    h3{
+    }
+    h3 {
         margin: 0px 0px 14px;
-}
+    }
 
     .grid {
-        gap: 16px;
+        gap: 32px;
         grid-template-areas: 'a a' 'b b' 'c c';
         padding-bottom: 64px;
-}
+    }
     .first {
         height: 144px;
         width: 350px;
         background: url('../images/mask3.png') center no-repeat;
-}
+    }
     .first h4{
         font-size: 16px;
         line-height: 19px;
         margin: 16px 16px auto auto; 
-} 
+    } 
     .first h4{
         display: none;
-}
+    }
     .second {
         width: 350px;
         height: 255px;
-}
+    }
     .second h4{
         font-size: 16px;
         line-height: 19px;
         margin: 26px auto auto 16px;
-}
+    }
     .third {
         width: 350px;
         height: 255px;
-}
+    }
     .third h4{
         font-size: 16px;
         line-height: 19px;
         margin: 16px auto auto 16px;
-}
+    }
     .message{
         width: 270px;
         height: 442px;
         margin-top: 0;
         padding: 36px;
-}
+    }
     .message h3 {
         font-size: 20px;
         margin-bottom: 0;
         text-transform: uppercase;
         padding-right: 50%;
-}
+    }
     .message h4 {
         font-size: 14px;
         margin: 32px 0 5px;
-}
+    }
     .message [name = "submit"]{
         width: 272px;
         height: 46px;
         margin: 46px auto 36px;
-}
-    
+    }
+ /*CONTACT US*/
+    .map {
+        width: 375px;         
+        padding-bottom: 0;
+        margin: 0;
+    }
+    .map > img {
+        width: 375px;
+        margin: 0;
+    }   
     /*footer*/
+    footer {
+        height: 553px;
+    }
     footer .container {
         display: flex;
         flex-direction: column;
@@ -898,6 +835,5 @@
     ol li::before {
         height: 20px;
         width: 20px;
-    }
-    
+    }  
 }
