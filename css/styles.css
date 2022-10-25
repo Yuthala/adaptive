@@ -1,4 +1,4 @@
-@font-face {
+ @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Light.woff2') format('woff2');
     font-weight: 300;
@@ -126,13 +126,13 @@
 }
 /*CONTACT US*/
 
-    .contactus {
+    .contact_us {
         height: 250px;
         width: 100%;
         background: url('../images/contactus.png') no-repeat center center;
         background-size: cover;
 }
-    .contactus h1 {
+    .contact_us h1 {
         font-weight: 500;
         font-size: 44px;
         line-height: 74px;
@@ -141,7 +141,7 @@
         text-align: center;
         padding-top: 56px;
 }
-    .contactus h3 {
+    .contact_us h3 {
         width: 780px;
         color: #fff;
         text-align: center;
@@ -199,24 +199,24 @@
         opacity: 1;
 }
     /*3 картинки в ряд*/
-    .whatelement{
+    .what_element{
         height: 480px;
         width: 359px;
         background: #fff;
         box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
         border-radius: 10px;
  }
-    .whatelement >div{
+    .what_element >div{
         width: 294px;
         height: 220px;
         padding: 44px 32px;
  }
-    .whatelement a{
+    .what_element a{
         color: #5A98D0;
         display: inline-block;
         margin: 14px 0px;
     }
-    .whatelement a::after {
+    .what_element a::after {
         content: '';
         background: url('../images/arrow.png') center center no-repeat;
         width: 20px;
@@ -224,7 +224,7 @@
         padding-right: 50px;
     }
     
-    .whatcont{
+    .what_we_do_to_help{
         display: flex;
         gap: 32px;  
  } 
@@ -349,7 +349,7 @@
         height: 24px;
         padding-left: 40px;
 }
-    .message {
+    .send_us_message{
         width: 428px;
         height: 688px;
         padding: 56px;
@@ -357,13 +357,13 @@
         box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
         border-radius: 10px;
 }
-    .message h3{
+    .send_us_message h3{
         font-weight: 500;
         letter-spacing: 0.04em;
         margin-bottom: 48px;
         text-transform: uppercase;
 }
-    .message h4 {
+    .send_us_message h4 {
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.04em;
@@ -383,7 +383,7 @@
     textarea {
         height: 144px;
     }
-    .message button {
+    .send_us_message button {
         background: #5A98D0;
         box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
         border-radius: 10px;
@@ -396,9 +396,13 @@
 }
     .map {
         width: 940px;
-        padding-bottom: 113px;
+        /*padding-bottom: 113px;*/
         margin: 0 auto;
- }
+    }
+    .map > img {
+        height: 480px;
+        margin: 0 auto 112px auto;
+    }
     
 /* footer */
     .liner {
@@ -461,10 +465,10 @@
  
     /*header*/
     /*CONTACT US*/
-    .contactus h1 {
+    .contact_us h1 {
         padding-top: 50px;
     }
-    .contactus h3 {
+    .contact_us h3 {
         width: 520px;
         margin: 14px auto 24px;
     }
@@ -523,16 +527,16 @@
         font-size: 28px;
         line-height: 46px;
     }
-    .whatcont{
+    .what_we_do_to_help{
         flex-direction: column;
         align-items: center;
         gap: 32px;  
     } 
-    .whatelement{
+    .what_element{
         width: 335px;
         height: 448px;
     }
-    .whatelement >div{
+    .what_element >div{
         width: 275px;
         height: 215px;
         padding: 30px;
@@ -562,19 +566,19 @@
         height: 679px;
         margin: 0;
     }
-    .message {
+    .send_us_message{
         width: 412px;
         height: 672px;
         margin-top: 0;
         padding: 54px;
     }
-    .message h3{
+    .send_us_message h3{
         font-weight: 500;
         letter-spacing: 0.04em;
         margin-bottom: 26px;
         text-transform: uppercase;
     }
-    .message h4 {
+    .send_us_message h4 {
         font-size: 16px;
         line-height: 30px;
         letter-spacing: 0.04em;
@@ -582,16 +586,17 @@
         color: #1F3F68;
         margin: 26px 0 8px;
     }
-    .message [name = "submit"]{
+    .send_us_message [name = "submit"]{
         margin: 58px auto 56px; 
     }
     .map { 
-        padding-bottom: 0;
-        margin: 0;
+        padding-bottom: 32px;
+        margin-bottom: 0;
     }
-    .map>img {
+    .map > img {
         width: 768px;
         margin: 0;
+        padding-bottom: 32px;
     }   
     footer {
         height: 654px;
@@ -631,15 +636,15 @@
         width: 100%;
         height: 392px;
         padding-bottom: 64px;
-        position: relative;
+        /*position: relative;*/
         overflow: hidden;
     }
     .map > img {
         height: 392px;
-        position: absolute;
+        /*position: absolute;
         margin-left: -384px;
         left: 50%;
-        top: 0;
+        top: 0;*/
     }
 }
 
@@ -648,12 +653,10 @@
         width: 683px;
         margin: 0 auto;
     }
-    
     .container {
         width: auto;
         margin: 0 16px;
     }    
-    
     header {
         height: 80px;
     }
@@ -664,7 +667,7 @@
     }
     .wrapper {
         gap: 32px;
-        margin: 46px auto;
+        margin: 32px auto;
     } 
     .grad .container {
         height: 250px;
@@ -699,10 +702,10 @@
         font-size: 12px;
         line-height: 26px;
     }
-    main p{
-        text-align: center;
+    .address p{
+        text-align: left;
     }
-    .whatelement p {
+    .what_element p {
         text-align: left;
     }
     main .grad p {
@@ -723,7 +726,7 @@
         line-height: 28px;
         margin: 48px 16px 32px;
     }
-    .whatelement >div{
+    .what_element >div{
         width: 275px;
         height: 215px;
         padding: 30px;
@@ -733,8 +736,9 @@
     }
 
     .grid {
-        gap: 32px;
-        grid-template-areas: 'a a' 'b b' 'c c';
+        grid-template-areas: 'a' 'b' 'c';
+        gap: 16px;
+        justify-content: center;
         padding-bottom: 64px;
     }
     .first {
@@ -745,11 +749,10 @@
     .first h4{
         font-size: 16px;
         line-height: 19px;
-        margin: 16px 16px auto auto; 
+        top: 16px;
+        right: 16px;
+        text-align: left;        
     } 
-    .first h4{
-        display: none;
-    }
     .second {
         width: 350px;
         height: 255px;
@@ -768,38 +771,68 @@
         line-height: 19px;
         margin: 16px auto auto 16px;
     }
-    .message{
+    .send_us_message{
         width: 270px;
-        height: 442px;
-        margin-top: 0;
+        height: auto;
+        margin: 0 auto;
         padding: 36px;
     }
-    .message h3 {
+    .send_us_message h3 {
         font-size: 20px;
-        margin-bottom: 0;
+        margin-bottom: 11px;
         text-transform: uppercase;
-        padding-right: 50%;
     }
-    .message h4 {
+    .send_us_message h4 {
         font-size: 14px;
-        margin: 32px 0 5px;
+        margin-top: 20px;
+        margin-bottom: 0;
     }
-    .message [name = "submit"]{
+    .send_us_message [name = "submit"]{
         width: 272px;
         height: 46px;
         margin: 46px auto 36px;
     }
  /*CONTACT US*/
+    .contact_us {
+        margin-top: 81px;
+        height: 250px;
+    }
+    .contact_us h1 {
+        padding-top: 48px;
+    }
+    .contact_us h3 {
+        width: 90%;
+        margin: 32px auto 61px;
+        font-size: 16px;
+    }
+    input, textarea {
+        font-size: 14px;
+        padding: 13px 0 13px 26px;
+    }
+    textarea {
+            height: 117px;
+    }
+    .send_us_message button
+        height: 46px;
+        margin-top: 35px;
+    }
     .map {
-        width: 375px;         
+        width: 100%;
         padding-bottom: 0;
-        margin: 0;
+        margin-bottom: 32px;
     }
     .map > img {
-        width: 375px;
-        margin: 0;
-    }   
-    /*footer*/
+        display: block;
+        height: auto;
+        /*margin-left: 0;
+        position: absolute;
+        left: 0;
+        top: 0;*/
+    } 
+
+
+}    
+    /*footer*
     footer {
         height: 553px;
     }
@@ -836,4 +869,4 @@
         height: 20px;
         width: 20px;
     }  
-}
+}*/
