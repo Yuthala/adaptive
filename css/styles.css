@@ -824,49 +824,8 @@
     .map > img {
         display: block;
         height: auto;
-        /*margin-left: 0;
-        position: absolute;
-        left: 0;
-        top: 0;*/
     } 
 
 
 }    
-    /*footer*
-    footer {
-        height: 553px;
-    }
-    footer .container {
-        display: flex;
-        flex-direction: column;
-        padding: 18px 0 40px;
-    }
-    footer button {
-        order: 1;
-        float: none;
-        width: 108px;
-        margin: 33px auto 0;
-    }
-    footer h2 {
-        width: auto;
-        text-align: center;
-        font-size: 24px;
-        line-height: 28px;
-        letter-spacing: 0px;
-        margin: 0 0 27px;
-    }
-    footer p {
-        width: auto;
-        text-align: center;
-    }
-    ol {
-        margin: 14px 0 11px 22px;
-    }
-    ol li {
-        line-height: 19px;
-    }
-    ol li::before {
-        height: 20px;
-        width: 20px;
-    }  
-}*/
+   
